@@ -2,31 +2,39 @@ body {
     font-family: "Roboto", sans-serif;
     display: flex;
     flex-direction: column;
-    margin: 0px;
+    margin: 0;
     min-height: 100vh;
+    
 }
 
 .header {
     background-color: #1F2937;
+    flex: 0 0 100px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-around;
+    
+    
+    
 }
 
 .left-header {
     color: #F9FAF8;
+    
     font-size: 24px;
     font-weight: 700;
-    margin: 24px;   
+    display: flex;
+    align-items: center;
+    
+      
 }
 
 ul {
     list-style-type: none;
+    
     display: flex;
-    margin: 0px;
-    padding: 0px;
-    gap: 10px;
+    gap: 1rem;
+    align-items: center;
+    
 }
 
 a {
@@ -36,39 +44,57 @@ a {
 }
 
 .right-header {
-    display: flex;
     
 }
 
-.content-one {
-    background-color: #1F2937;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.container-one {
-    background-color: #1F2937;
+.content-body {
+    flex-grow: 1;
     display: flex;
     flex-direction: column;
+}
+
+
+.content-1 {
+    background-color: #1F2937;
+    display: flex;    
+    justify-content: space-around;
+    align-items: center;
+    
     
     
 }
 
-.container-one .text-header {
+.container-1 {
+    flex: 0 0 400px;
+    background-color: #1F2937;
+    padding: 16px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.placeholder-box {
+    background: grey;
+    font-weight: bold;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-1 .text-header {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
 }
 
-.container-one .text-body {
+.container-1 .text-body {
     font-size: 18px;
+    font-weight: 300;
     color: #e5e7eb;
 }
-
-
 
 button {
     cursor: pointer;
@@ -84,6 +110,127 @@ button.signup {
     
 }
 
-.image {
+.content-2 {
+    display: flex;    
+    flex-direction: column;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    gap: 48px;
+    
+    
+    
+}
 
+.content-2 .text-header {
+    color: #1F2937;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+    
+}
+
+.info {
+    text-align: center;
+    flex: 0 0 150px;
+}
+
+.content-2 .text-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.box {
+    border: 3px solid #3882f6;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-3 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-3 {
+    flex: 0 0 1000px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.container-3 .text-signature {
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content-4 {
+    margin: 0;
+    padding: 10%;
+    display: flex;    
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+.container-4 {
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 50px;
+    color: #F9FAF8;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1000px;
+    
+    
+}
+
+.container-4 .text-header {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.container-4 .text-body {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+}
+.container-4 .signup {
+    border: 1px solid white;
+    
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    flex: 0 0 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
