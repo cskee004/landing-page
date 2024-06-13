@@ -4,64 +4,38 @@ body {
     flex-direction: column;
     margin: 0;
     min-height: 100vh;
-    
 }
 
 .header {
     background-color: #1F2937;
-    flex: 0 0 100px;
+    flex: 0 0 400px;
+}
+
+.main-header {
     display: flex;
-    justify-content: space-around;
-    
-    
-    
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .left-header {
     color: #F9FAF8;
-    
     font-size: 24px;
     font-weight: 700;
     display: flex;
-    align-items: center;
-    
-      
+    align-items: center;  
 }
 
-ul {
-    list-style-type: none;
-    
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-    
+.secondary-header {
+    margin-top: 18px;
+    margin-bottom: 18px;
 }
-
-a {
-    font-size: 18px;
-    color: #e5e7eb;
-    text-decoration: none;
-}
-
-.right-header {
-    
-}
-
-.content-body {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-}
-
 
 .content-1 {
+    gap: 100px;
     background-color: #1F2937;
     display: flex;    
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    
-    
-    
 }
 
 .container-1 {
@@ -107,7 +81,25 @@ button.signup {
     background-color: #3882f6;
     border: 1px solid #1F2937;
     color: #F9FAF8;
-    
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.content-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .content-2 {
@@ -115,10 +107,7 @@ button.signup {
     flex-direction: column;
     margin-top: 48px;
     margin-bottom: 48px;
-    gap: 48px;
-    
-    
-    
+    gap: 48px;   
 }
 
 .content-2 .text-header {
@@ -132,8 +121,7 @@ button.signup {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 4rem;
-    
+    gap: 4rem;   
 }
 
 .info {
@@ -189,8 +177,6 @@ button.signup {
     display: flex;    
     flex-direction: row;
     justify-content: center;
-
-
 }
 
 .container-4 {
@@ -202,9 +188,7 @@ button.signup {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 1000px;
-    
-    
+    width: 1000px;    
 }
 
 .container-4 .text-header {
@@ -214,16 +198,15 @@ button.signup {
 }
 
 .container-4 .text-body {
-    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     align-content: space-between;
 }
+
 .container-4 .signup {
     border: 1px solid white;
-    
 }
 
 .footer {
